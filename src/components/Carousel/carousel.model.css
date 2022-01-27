@@ -1,0 +1,37 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slide {
+  width: 1230px;
+  height: 450px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  background: linear-gradient(
+    103.4deg,
+    rgba(241, 250, 255, 0.88) 0.89%,
+    #f1faff 101.61%
+  );
+  backdrop-filter: blur(155px);
+  border-radius: 1px;
+}
+.slide__info {
+  width: 400px;
+  text-align: center;
+}
+
+.slide__heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: brown;
+  margin-bottom: 30px;
+}
+.slide__text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.slide__img {
+  border-radius: 50%;
+}
